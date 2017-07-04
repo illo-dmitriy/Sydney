@@ -1,0 +1,438 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {	
+	.wrapper .header .header__title .title__first {
+		padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__second {
+		padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__third {
+		padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__fourth {
+		padding-top: 15px;
+    padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__donate {
+		padding-top: 0;
+		padding-right: 15px;
+	}
+	.wrapper .header .header__title .title__donate ul {
+		padding-left: 0;
+		padding-bottom: 0;
+	}
+	.wrapper .header .header__title .title__first span {
+    font-size: 52px;
+	}
+	.wrapper .header .header__title .title__first {
+		font-size: 27px;
+	}
+	.wrapper .header .header__title .title__first i {
+    font-size: 9px;
+  }
+  .wrapper .header .header__title .title__second span {
+    font-size: 74px;
+	}
+	.wrapper .header .header__title .title__second {
+    font-size: 42px;
+  }
+  .wrapper .header .header__title .title__third span {
+    font-size: 74px;
+	}
+	.wrapper .header .header__title .title__third {
+    font-size: 42px;
+  }
+  .wrapper .header .header__title .title__donate span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+	.wrapper .header .navbar {
+		padding-left: 70px;
+	}
+	.wrapper .content .content__schedule .container .description {
+    padding-left: 100px;
+	}
+	.wrapper .content .content__schedule .container .description i {
+    padding-right: 0px;
+  }
+  .wrapper .content .content__youtube .youtube__video iframe {
+		width: 900px;
+		height: 427px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li a img {
+		width: 90%;
+	}
+	.wrapper .footer .footer__partners {
+		padding-bottom: 40px;
+	}
+	.wrapper .footer .footer__design {
+		padding-bottom: 200px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrapper .header .header__title .title__first span {
+    font-size: 40px;
+	}
+	.wrapper .header .header__title .title__first {
+    font-size: 20px;
+    padding-right: 0;
+	}
+	.wrapper .header .header__title .title__first i {
+    font-size: 8px;
+	}
+	.wrapper .header .header__title .title__second {
+    font-size: 32px;
+	}
+	.wrapper .header .header__title .title__second span {
+    font-size: 56px;
+	}
+	.wrapper .header .header__title .title__third {
+    font-size: 32px;
+	}
+	.wrapper .header .header__title .title__third span {
+    font-size: 56px;
+	}
+	.wrapper .header .header__title .title__fourth {
+    font-size: 20px;
+  }
+  .wrapper .header .header__title .title__donate ul li a img {
+		width: 90%;
+  }
+  .wrapper .header .header__title .title__donate {
+  	font-size: 16px;
+	}
+	.wrapper .header .header__title .title__donate {
+    padding-left: 0;
+    padding-right: 0;
+	}
+	.wrapper .header .header__title .title__donate ul {
+		margin-bottom: 0;
+	}
+	.wrapper .header .header__title {
+		width:100%;
+	}
+	.wrapper .content .content__youtube .youtube__video iframe {
+		width: 700px;
+		height: 333px;
+	}
+	.wrapper .header .navbar {
+    padding-left: 0;
+	}
+	.wrapper .header .navbar .navbar-nav li a {
+    padding: 10px 15px;
+	}
+	.wrapper .title {
+		font-size: 32px;
+	}
+	.wrapper .content .content__schedule .container .description span {
+    font-size: 22px;
+    padding-bottom: 10px;
+	}
+	.wrapper .content .content__schedule .container .description i {
+    font-size: 14px;
+  }
+	.wrapper .content .content__schedule {
+    text-align: center;
+	}
+	.wrapper .content .content__schedule .container .foto img {
+		width: 90%;
+	}
+	.wrapper .content .content__schedule .container .foto {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50px;
+	}
+	.wrapper .content .content__schedule .container .description {
+		padding-right: 0;
+    padding-left: 0;
+	}
+	.wrapper .content .content__schedule .container .description button {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.wrapper .content .content__schedule .container {
+    padding-bottom: 20px;
+	}
+	.wrapper .content .content__youtube {
+    padding-bottom: 50px;
+  }
+	.wrapper .content .content__shop-support {
+    padding-bottom: 50px;
+	}
+	.wrapper .content .content__shop-support .shop img {
+		width: 43%;
+	}
+	.wrapper .content .content__shop-support .support img {
+		width: 90%;
+	}
+	.wrapper .content .content__shop-support .celebration img {
+		width: 90%;
+	}
+	.wrapper .content .content__shop-support .celebration {
+		padding-top: 95px;
+	}
+	.wrapper .content .content__instagram .instagram__title {
+    padding-top: 70px;
+	}
+	.wrapper .footer .footer__design {
+    padding-bottom: 50px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li a img {
+		width: 70%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.wrapper .header .header__title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+	.wrapper .header .header__title .title__first {
+    text-align: center;
+    padding-top: 0;
+    padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__second {
+		padding-left: 15px;
+	}
+	.wrapper .header .header__title .title__fourth {
+		padding-left: 25px;
+		padding-top: 15px;
+		padding-right: 0;
+	}
+	.wrapper .header .header__title .title__donate {
+    padding-right: 15px;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+	.wrapper .header .navbar {
+		padding-top: 10px;
+	}
+	.wrapper .content .content__slider {
+    padding-bottom: 10px;
+	}
+	.wrapper .content .content__schedule .schedule__title {
+    padding-left: 0;
+	}
+	.wrapper .content .content__schedule .container .foto img {
+		width: 90%;
+	}
+	.wrapper .content .content__schedule .container .description {
+		padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+	}
+	.wrapper .content .content__schedule .container {
+		padding-bottom: 5px;
+	}
+	.wrapper .content .content__youtube .youtube__title {
+    padding-left: 0;
+    text-align: center;
+	}
+	.wrapper .header .header__title .title__first span {
+    font-size: 34px;
+	}
+	.wrapper .header .header__title .title__first {
+    font-size: 18px;
+  }
+  .wrapper .header .header__title .title__second span {
+    font-size: 48px;
+	}
+	.wrapper .header .header__title .title__second {
+    font-size: 30px;
+  }
+  .wrapper .header .header__title .title__third span {
+    font-size: 48px;
+	}
+	.wrapper .header .header__title .title__third {
+    font-size: 30px;
+  }
+	.wrapper .header .header__title .title__fourth {
+    font-size: 22px;
+  }
+  .wrapper .header .header__title .title__donate {
+    font-size: 14px;
+	}
+	.wrapper .header .header__title .title__donate span {
+		padding-bottom: 0;
+    padding-top: 0;
+	}
+	.wrapper .header .header__title .title__donate ul {
+		margin-bottom: 0;
+	}
+	.wrapper .content .content__slider .carousel .carousel-control .glyphicon-chevron-left img, .wrapper .content .content__slider .carousel .carousel-control .glyphicon-chevron-right img {
+		width: 70%;
+	}
+	.wrapper .content .content__youtube .youtube__video iframe {
+    width: 90%;
+    height: auto;
+	}
+	.wrapper .title {
+    font-size: 34px;
+   }
+   .wrapper .content .content__shop-support .shop img {
+    width: 90%;
+	}
+   .wrapper .content .content__schedule .container .foto {
+    padding-bottom: 20px;
+	}
+	.wrapper .content .content__schedule .container .description span {
+    display: block;
+    font-size: 26px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+	}
+	.wrapper .content .content__schedule .container .description button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .wrapper .content .content__instagram .instagram__social {
+  	padding-left: 0px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul {
+		padding-right: 0px;
+    padding-left: 0px;
+	}
+	.wrapper .content .content__instagram .instagram__social ul {
+    padding-left: 0px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li {
+		padding-left: 0px;
+    padding-right: 0px;
+	}
+	.wrapper .footer .footer__contact .social {
+		padding-bottom: 30px;
+	}
+	.wrapper .content .content__shop-support img {
+    width: 90%;
+	}
+	.wrapper .content .content__instagram .instagram__image img {
+    float: right;
+    width: 90%;
+  }
+  .wrapper .content .content__instagram .instagram__social ul li a img {
+  	width: 80%;
+  }
+  .wrapper .header .header__title {
+		width: 100%;
+  }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.wrapper .content .content__schedule .container .description button {
+		font-size: 22px;
+	}
+	.wrapper .title {
+    font-size: 30px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li a img {
+		width: 80%;
+	}
+	.wrapper .footer .footer__contact .contact__text {
+		font-size: 18px;
+	}
+	.wrapper .header .header__title {
+		    width: 100%;
+	}
+	.wrapper .header .header__title .title__donate ul {
+		padding-left: 20px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.wrapper .header .header__title .title__first span {
+    font-size: 28px;
+	}
+	.wrapper .header .header__title .title__first {
+    font-size: 14px;
+	}
+	.wrapper .header .header__title .title__first i {
+    font-size: 5px;
+	}
+	.wrapper .header .header__title .title__second span {
+    font-size: 42px;
+	}
+	.wrapper .header .header__title .title__second {
+    font-size: 24px;
+	}
+	.wrapper .header .header__title .title__third span {
+    font-size: 42px;
+	}
+	.wrapper .header .header__title .title__third {
+    font-size: 24px;
+	}
+	.wrapper .header .header__title .title__fourth {
+    font-size: 16px;
+	}
+	.wrapper .header .header__title .title__donate {
+    font-size: 12px;
+    padding-right: 0;
+	}
+	.wrapper .header .header__title .title__donate ul li a img {
+    width: 80%;
+	}
+	.wrapper .content .content__schedule .container .description button {
+    font-size: 16px;
+	}
+	.wrapper .footer .footer__contact .contact__text {
+    font-size: 14px;
+	}
+	.wrapper .footer .footer__design {
+		font-size: 14px;
+	}
+	.wrapper .content .content__subscribe button {
+		padding: 10px 30px;
+	}
+	.wrapper .footer .footer__partners .partners__image ul li a img {
+    padding-bottom: 15px;
+	}
+	
+	.wrapper .header .header__title {
+		    width: 100%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
